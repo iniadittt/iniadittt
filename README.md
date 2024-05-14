@@ -10,9 +10,15 @@ My focus is on full-stack development. I started my coding journey at the end of
 ## Buy Me A Cooffe
   <a href="https://saweria.co/iniadittt" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
-## My Status
-  <div style="display: flex;">
-    <img align="center" style="width: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iniadittt&layout=compact&theme=cobalt&hide_border=true" />
-    <img align="center" style="width: 100%;" src="https://github-readme-streak-stats.herokuapp.com?user=iniadittt&theme=vue-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="My github stats" />
-    <img align="center" style="width: 100%;" src="https://github-readme-stats.vercel.app/api?username=iniadittt&show_icons=true&include_all_commits=true&theme=cobalt&hide_border=true" alt="My github stats" /> 
-  </div>
+## Github Static
+<div align="center">
+   <a href="https://github.com/bimamib">
+     <img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=iniadittt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/></a>
+   <a><img height="150em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iniadittt&layout=compact&langs_count=8&theme=tokyonight"/></a>
+</div>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=iniadittt&theme=tokyonight-duo&hide_border=true" />
+</p>
+
+    ![readmebox animation](https://raw.githubusercontent.com/bimamib/bimamib/main/readmebox.svg)
