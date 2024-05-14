@@ -4,9 +4,6 @@ I am a passionate software engineer from Indonesia. My enthusiasm for open sourc
 
 My focus is on full-stack development. I started my coding journey at the end of 2019 with Javascript and Server, initially experimenting by creating and participating in competitions related to website and network/server development. Since then, I have expanded my skills to develop various website, backend, machine learning and server applications on cloud platforms.
 
-## Most Used Language
-  <img align="center" style="width: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iniadittt&layout=compact&theme=cobalt&hide_border=true" />
-
 ## Programming Language
   <div style="display: flex;">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
@@ -55,6 +52,7 @@ My focus is on full-stack development. I started my coding journey at the end of
 
 ## My Status
   <div style="display: flex;">
+    <img align="center" style="width: 100%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iniadittt&layout=compact&theme=cobalt&hide_border=true" />
     <img align="center" style="width: 100%;" src="https://github-readme-streak-stats.herokuapp.com?user=iniadittt&theme=vue-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="My github stats" />
     <img align="center" style="width: 100%;" src="https://github-readme-stats.vercel.app/api?username=iniadittt&show_icons=true&include_all_commits=true&theme=cobalt&hide_border=true" alt="My github stats" /> 
   </div>
