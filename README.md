@@ -4,7 +4,7 @@ I am a passionate software engineer from Indonesia. My enthusiasm for open sourc
 
 My focus is on full-stack development. I started my coding journey at the end of 2019 with Javascript and Server, initially experimenting by creating and participating in competitions related to website and network/server development. Since then, I have expanded my skills to develop various website, backend, machine learning and server applications on cloud platforms.
 
-## Stats
+## Most Used Language
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iniadittt&layout=compact&theme=cobalt&hide_border=true" />
 
 ## Programming Language
