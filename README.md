@@ -8,7 +8,7 @@ My focus is on full-stack development. I started my coding journey at the end of
 [![Tech Stack & Tools](https://skillicons.dev/icons?i=js,ts,py,go,html,css,express,elysia,nestjs,react,nextjs,alpinejs,tailwind,bootstrap,htmx,flask,fastapi,tensorflow,docker,mysql,postgres,mongodb,sqlite,nodejs,bun,gcp,firebase,postman,nginx,git,github,vscode)](https://skillicons.dev)
 
 ## Buy Me A Cooffe
-  <a href="[your-own-link-from-the-website](https://saweria.co/iniadittt)" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
+  <a href="https://saweria.co/iniadittt" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
 ## My Status
   <div style="display: flex;">
