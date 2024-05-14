@@ -49,11 +49,7 @@ My focus is on full-stack development. I started my coding journey at the end of
 
 # Buy Me A Cooffe
   <a href="[your-own-link-from-the-website](https://saweria.co/iniadittt)" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
-  
-<p align="left">
-  <a href="https://github.com/iniadittt">
-    <img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=timcreative&theme=vue-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="My github stats" />
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=alfianfakhrudin2&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=alfianfakhrudin2&layout=compact&langs_count=8&theme=algolia"/>
-  </a>
-</p>
+
+<img align="center" src="https://github-readme-streak-stats.herokuapp.com?user=timcreative&theme=vue-dark&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="My github stats" />
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=timcreative&show_icons=true&include_all_commits=true&theme=cobalt&hide_border=true" alt="My github stats" /> 
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=timcreative&layout=compact&theme=cobalt&hide_border=true" />
