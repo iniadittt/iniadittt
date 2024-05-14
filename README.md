@@ -1,9 +1,11 @@
 # Hi Folks, I am Aditya Bayu <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
 
+I am a passionate software engineer from Indonesia. My enthusiasm for open source projects unites people globally and drives us towards a brighter future. When I'm not coding, you'll find me playing games and watching movies.
+
 My focus is on full-stack development. I started my coding journey at the end of 2019 with Javascript and Server, initially experimenting by creating and participating in competitions related to website and network/server development. Since then, I have expanded my skills to develop various website, backend, machine learning and server applications on cloud platforms.
 
 ## Programming Language
-  <div style="display: flex; margin-left: 30px;">
+  <div style="display: flex; margin-left: '30px';">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
     <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" />
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
