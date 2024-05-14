@@ -13,8 +13,8 @@ My focus is on full-stack development. I started my coding journey at the end of
 ## Github Static
 <div align="center">
    <a href="https://github.com/bimamib">
-     <img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=iniadittt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/></a>
-   <a><img height="160em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iniadittt&layout=compact&langs_count=8&theme=tokyonight"/></a>
+     <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=iniadittt&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/></a>
+   <a><img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iniadittt&layout=compact&langs_count=8&theme=tokyonight"/></a>
 </div>
 
 <p align="center">
