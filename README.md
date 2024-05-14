@@ -21,4 +21,4 @@ My focus is on full-stack development. I started my coding journey at the end of
   <img src="https://github-readme-streak-stats.herokuapp.com?user=iniadittt&theme=tokyonight-duo&hide_border=true" />
 </p>
 
-    ![readmebox animation](https://raw.githubusercontent.com/bimamib/bimamib/main/readmebox.svg)
+![readmebox animation](https://raw.githubusercontent.com/iniadittt/iniadittt/main/readmebox.svg)
