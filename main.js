@@ -20,21 +20,13 @@ async function CHANGE() {
 		.map((x, i) => (i === 1 ? ` Last update: ${formattedDate} WIB ` : x))
 		.join("---");
 	fs.writeFileSync(readmePath, NEWREADME);
+	return;
 }
 
 async function executeBatScript() {
 	const batPath = path.resolve(__dirname, "gitpush.bat");
-	exec(batPath, (error, stdout, stderr) => {
-		if (error) {
-			console.error(`Error saat menjalankan .bat: ${error.message}`);
-			return;
-		}
-		if (stderr) {
-			console.error(`Error output: ${stderr}`);
-			return;
-		}
-		console.log(`Output dari script: ${stdout}`);
-	});
+	exec(batPath);
+	return;
 }
 
 setInterval(async () => {
