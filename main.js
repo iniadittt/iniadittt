@@ -37,10 +37,10 @@ async function executeBatScript() {
 	});
 }
 
-setInterval(() => {
+setInterval(async () => {
 	try {
-		CHANGE();
-		executeBatScript();
+		await CHANGE();
+		await executeBatScript();
 		console.log("BERHASIL PUSH KE GITHUB");
 	} catch (error) {
 		console.log("ERROR PUSH KE GITHUB");
