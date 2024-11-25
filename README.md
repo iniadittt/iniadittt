@@ -5,7 +5,7 @@ I am a passionate software engineer from Indonesia. My enthusiasm for open sourc
 My focus is on full-stack development. I started my coding journey at the end of 2019 with Javascript and Server, initially experimenting by creating and participating in competitions related to website and network/server development. Since then, I have expanded my skills to develop various website, backend, machine learning and server applications on cloud platforms.
 
 ## Tech Stack & Tools
-[![Tech Stack & Tools](https://skillicons.dev/icons?i=ts,js,nodejs,adonis,react,nextjs,express,nestjs,bun,deno,elysia,php,laravel,flask,fastapi,html,css,htmx,alpinejs,tailwind,bootstrap,mysql,sqlite,sequelize,tensorflow,firebase,supabase,gcp,nginx,docker,tensorflow,git,github,npm,linux,postman,netlify,vite,vscodediscord,instagram,linkedin)](https://skillicons.dev)
+[![Tech Stack & Tools](https://skillicons.dev/icons?i=ts,js,nodejs,adonis,react,nextjs,express,nestjs,bun,deno,elysia,php,laravel,flask,fastapi,html,css,htmx,alpinejs,tailwind,bootstrap,mysql,sqlite,sequelize,tensorflow,firebase,supabase,gcp,nginx,docker,tensorflow,git,github,npm,linux,postman,netlify,vite,vscode,discord,instagram,linkedin)](https://skillicons.dev)
 
 ## Buy Me A Coffee
   <a href="https://saweria.co/iniadittt" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
