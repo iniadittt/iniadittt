@@ -47,6 +47,4 @@ setInterval(() => {
 	}
 }, time);
 
-CHANGE();
-executeBatScript();
 console.log("Job telah dijadwalkan.");
