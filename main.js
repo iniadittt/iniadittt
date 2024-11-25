@@ -18,7 +18,7 @@ async function CHANGE() {
 	const seconds = String(today.getSeconds()).padStart(2, "0");
 	const formattedDate = `${year}-${month}-${date} ${hours}:${minutes}:${seconds}`;
 	const NEWREADME = README.split("---")
-		.map((x, i) => (i === 1 ? ` Waktu saat ini: ${formattedDate} WIB ` : x))
+		.map((x, i) => (i === 1 ? ` Terakhir update: ${formattedDate} WIB ` : x))
 		.join("---");
 	fs.writeFileSync(readmePath, NEWREADME);
 }
