@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
 
-const time = 1 * 60 * 1000;
+const time = 5 * 1000;
 
 async function CHANGE() {
 	const readmePath = path.join(__dirname, "README.md");
@@ -40,6 +40,9 @@ async function executeBatScript() {
 setInterval(() => {
 	CHANGE();
 	executeBatScript();
+	console.log("BERHASIL PUSH KE GITHUB");
 }, time);
 
+CHANGE();
+executeBatScript();
 console.log("Job telah dijadwalkan.");
