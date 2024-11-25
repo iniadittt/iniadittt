@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
 
-const time = 5 * 1000;
+const time = 10 * 1000;
 
 async function CHANGE() {
 	const readmePath = path.join(__dirname, "README.md");
