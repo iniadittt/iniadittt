@@ -7,11 +7,8 @@ const time = 3 * 1 * 1000;
 
 async function CHANGE() {
 	const readmePath = path.join(__dirname, "README.md");
-	console.log({ readmePath });
 	const README = fs.readFileSync(readmePath, "utf8");
-	console.log({ README });
 	const today = new Date();
-	console.log({ today });
 	const year = today.getFullYear();
 	const month = String(today.getMonth() + 1).padStart(2, "0");
 	const date = String(today.getDate()).padStart(2, "0");
@@ -19,11 +16,9 @@ async function CHANGE() {
 	const minutes = String(today.getMinutes()).padStart(2, "0");
 	const seconds = String(today.getSeconds()).padStart(2, "0");
 	const formattedDate = `${year}-${month}-${date} ${hours}:${minutes}:${seconds}`;
-	console.log({ formattedDate });
 	const NEWREADME = README.split("---")
 		.map((x, i) => (i === 1 ? ` Last update: ${formattedDate} WIB ` : x))
 		.join("---");
-	console.log({ NEWREADME });
 	fs.writeFileSync(readmePath, NEWREADME);
 	return;
 }
