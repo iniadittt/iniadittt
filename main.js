@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const { exec } = require("child_process");
 
-const time = 1 * 1000;
+const time = 3 * 1 * 1000;
 
 async function CHANGE() {
 	const readmePath = path.join(__dirname, "README.md");
@@ -14,7 +14,7 @@ async function CHANGE() {
 	const date = String(today.getDate()).padStart(2, "0");
 	const hours = String(today.getHours()).padStart(2, "0");
 	const minutes = String(today.getMinutes()).padStart(2, "0");
-	const seconds = String(today.getSeconds()).padStart(2, "0");
+	const seconds = String(today.getSeconds()).padStar(2, "0");
 	const formattedDate = `${year}-${month}-${date} ${hours}:${minutes}:${seconds}`;
 	const NEWREADME = README.split("---")
 		.map((x, i) => (i === 1 ? ` Last update: ${formattedDate} WIB ` : x))
