@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "luxon": "^3.5.0",
     "node-schedule": "^2.1.1"
   }
 }

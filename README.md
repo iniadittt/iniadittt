@@ -9,6 +9,17 @@ My focus is on full-stack development. I started my coding journey at the end of
 ## Tech Stack & Tools
 [![Tech Stack & Tools](https://skillicons.dev/icons?i=ts,js,nodejs,adonis,react,nextjs,express,nestjs,bun,deno,elysia,php,laravel,flask,fastapi,html,css,htmx,alpinejs,tailwind,bootstrap,mysql,sqlite,sequelize,tensorflow,firebase,supabase,gcp,nginx,docker,tensorflow,git,github,npm,linux,postman,netlify,vite,vscode,discord,instagram,linkedin)](https://skillicons.dev)
 
+## Connect With Me
+<a href="https://www.instagram.com/iniadittt">
+   <img src="https://skillicons.dev/icons?i=instagram"/>
+ </a>
+ <a href="https://www.linkedin.com/in/iniadittt">
+   <img src="https://skillicons.dev/icons?i=linkedin"/>
+ </a>
+ <a href="https://discord.gg/tVYXRNtBbG">
+   <img src="https://skillicons.dev/icons?i=discord"/>
+ </a>
+
 ## Buy Me A Coffee
   <a href="https://saweria.co/iniadittt" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-red.png" alt="Buy Me A Coffee" width="150" ></a>
 
