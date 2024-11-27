@@ -25,7 +25,7 @@ async function CHANGE() {
 
 async function executeBatScript() {
 	const batPath = path.resolve(__dirname, "gitpush.sh");
-	exec(batPath);
+	exec(`sh ${batPath}`);
 	return;
 }
 
