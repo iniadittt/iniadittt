@@ -4,7 +4,7 @@ I am a passionate software engineer from Indonesia. My enthusiasm for open sourc
 
 My focus is on full-stack development. I started my coding journey at the end of 2019 with Javascript and Server, initially experimenting by creating and participating in competitions related to website and network/server development. Since then, I have expanded my skills to develop various website, backend, machine learning and server applications on cloud platforms.
 
-### --- Last update: 2024-11-27 13:45:26 WIB ---
+### --- Last update: 2024-11-27 13:47:02 WIB ---
 
 ## Tech Stack & Tools
 [![Tech Stack & Tools](https://skillicons.dev/icons?i=ts,js,nodejs,adonis,react,nextjs,express,nestjs,bun,deno,elysia,php,laravel,flask,fastapi,html,css,htmx,alpinejs,tailwind,bootstrap,mysql,sqlite,sequelize,mongodb,firebase,supabase,gcp,nginx,docker,tensorflow,git,github,npm,linux,postman,netlify,vite,vscode)](https://skillicons.dev)
@@ -22,10 +22,10 @@ My focus is on full-stack development. I started my coding journey at the end of
 
 ## Competitif Programming Platform
 <a href="https://leetcode.com/u/4FwfmqOZLt/">
-	<img src="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png"/>
+	<img width="32px" src="https://user-images.githubusercontent.com/36547915/97088991-45da5d00-1652-11eb-900f-80d106540f4f.png"/>
 </a>
 <a href="https://www.codewars.com/users/iniadittt">
-	<img src="https://pbs.twimg.com/profile_images/1750534926779236357/okHhHIys_400x400.jpg"/>
+	<img width="32px" src="https://pbs.twimg.com/profile_images/1750534926779236357/okHhHIys_400x400.jpg"/>
 </a>
 
 ## Buy Me A Coffee
