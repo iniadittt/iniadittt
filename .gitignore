@@ -1,6 +1,7 @@
-node_modules/
-gitpush.bar
-main.js
-gitpush.sh
-package-lock.json
-package.json
+./node_modules
+./gitpush.bar
+./gitpush.sh
+./main.js
+./gitpush.sh
+./package-lock.json
+./package.json
