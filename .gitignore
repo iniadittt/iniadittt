@@ -1,5 +1,6 @@
-node_modules
+node_modules/
 gitpush.bar
 main.js
+gitpush.sh
 package-lock.json
 package.json
