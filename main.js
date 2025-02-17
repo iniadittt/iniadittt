@@ -21,7 +21,7 @@ async function updateReadme() {
 async function runGitPush() {
 	const batPath = path.resolve(__dirname, "gitpush.bat");
 	if (!fs.existsSync(batPath)) return console.error("gitpush.bat tidak ditemukan.");
-	spawn("cmd.exe", ["/c", batPath], { stdio: "inherit" }).on("close", (code) => console.log(code === 0 ? "Push berhasil." : `Gagal, kode ${code}.`));
+	spawn("cmd.exe", ["/c", batPath], { stdio: "inherit" }).on("close", (code) => console.log(code === 0 ? "BERHASIL PUSH KE GITHUB" : `ERROR PUSH KE GITHUB! ERROR: ${code}.`));
 }
 
 setInterval(async () => {
