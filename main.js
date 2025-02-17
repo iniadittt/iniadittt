@@ -3,65 +3,37 @@ const path = require("path");
 const { DateTime } = require("luxon");
 const { spawn } = require("child_process");
 
-const time = 5000; // 5 detik
+const time = 5000;
 
-async function CHANGE() {
-	try {
-		const readmePath = path.join(__dirname, "README.md");
-		if (!fs.existsSync(readmePath)) {
-			console.error("File README.md tidak ditemukan.");
-			return;
-		}
+async function updateReadme() {
+	const readmePath = path.join(__dirname, "README.md");
+	if (!fs.existsSync(readmePath)) return console.error("README.md tidak ditemukan.");
 
-		const README = fs.readFileSync(readmePath, "utf8");
-		const now = DateTime.now().setZone("Asia/Jakarta");
-		const formattedDate = now.toFormat("yyyy-MM-dd HH:mm:ss");
+	const now = DateTime.now().setZone("Asia/Jakarta").toFormat("yyyy-MM-dd HH:mm:ss");
+	const content = fs
+		.readFileSync(readmePath, "utf8")
+		.split("---")
+		.map((x, i) => (i === 1 ? ` Last update: ${now} WIB ` : x))
+		.join("---");
 
-		const NEWREADME = README.split("---")
-			.map((x, i) => (i === 1 ? ` Last update: ${formattedDate} WIB ` : x))
-			.join("---");
-
-		fs.writeFileSync(readmePath, NEWREADME, "utf8");
-		console.log("README.md berhasil diperbarui.");
-	} catch (error) {
-		console.error("Gagal memperbarui README.md:", error);
-	}
+	fs.writeFileSync(readmePath, content, "utf8");
+	console.log("README.md diperbarui.");
 }
 
-async function executeBatScript() {
-	try {
-		const batPath = path.resolve(__dirname, "gitpush.bat");
-		if (!fs.existsSync(batPath)) {
-			console.error("File gitpush.bat tidak ditemukan.");
-			return;
-		}
+async function runGitPush() {
+	const batPath = path.resolve(__dirname, "gitpush.bat");
+	if (!fs.existsSync(batPath)) return console.error("gitpush.bat tidak ditemukan.");
 
-		const process = spawn("cmd.exe", ["/c", batPath], { stdio: "inherit" });
-
-		process.on("error", (err) => {
-			console.error("Gagal menjalankan script batch:", err);
-		});
-
-		process.on("close", (code) => {
-			if (code === 0) {
-				console.log("gitpush.bat berhasil dijalankan.");
-			} else {
-				console.error(`gitpush.bat keluar dengan kode ${code}.`);
-			}
-		});
-	} catch (error) {
-		console.error("Gagal menjalankan script batch:", error);
-	}
+	spawn("cmd.exe", ["/c", batPath], { stdio: "inherit" }).on("close", (code) => console.log(code === 0 ? "Push berhasil." : `Gagal, kode ${code}.`));
 }
 
 setInterval(async () => {
 	try {
-		await CHANGE();
-		await executeBatScript();
-		console.log("BERHASIL PUSH KE GITHUB");
+		await updateReadme();
+		await runGitPush();
 	} catch (error) {
-		console.error("ERROR PUSH KE GITHUB:", error);
+		console.error("Terjadi kesalahan:", error);
 	}
 }, time);
 
-console.log("Job telah dijadwalkan.");
+console.log("Job dijadwalkan.");
