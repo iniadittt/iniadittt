@@ -7,7 +7,7 @@ const time = 5000;
 
 async function updateReadme() {
 	const readmePath = path.join(__dirname, "README.md");
-	if (!fs.existsSync(readmePath)) return console.error("README.md tidak ditemukan.");
+	if (!fs.existsSync(readmePath)) return console.error("FILE README TIDAK ADA");
 	const now = DateTime.now().setZone("Asia/Jakarta").toFormat("yyyy-MM-dd HH:mm:ss");
 	const content = fs
 		.readFileSync(readmePath, "utf8")
@@ -15,7 +15,7 @@ async function updateReadme() {
 		.map((x, i) => (i === 1 ? ` Last update: ${now} WIB ` : x))
 		.join("---");
 	fs.writeFileSync(readmePath, content, "utf8");
-	console.log("README.md diperbarui.");
+	return;
 }
 
 async function runGitPush() {
