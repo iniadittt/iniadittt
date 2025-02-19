@@ -3,7 +3,7 @@ const path = require("path");
 const { DateTime } = require("luxon");
 const { spawn } = require("child_process");
 
-const time = 5000;
+const time = 4000;
 
 async function updateReadme() {
 	const readmePath = path.join(__dirname, "README.md");
